@@ -77,5 +77,26 @@ ul li::before {
   width: 20px;
 }
 
+@media screen and (max-width: 512px) {
+ 
+  #mainCont{
+    flex-direction: column;
+    
+  }
+  
+  #logo{
+    width: 50vw;
+  }
+  
+  #logoCont{
+    padding: 20px;
+  }
+  
+  #infoCont{
+    height: 50vh;
+  }
+  
+}
+
 
 
